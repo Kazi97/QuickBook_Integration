@@ -93,7 +93,7 @@ global with sharing class QuickBook extends Auth.AuthProviderPluginClass {
 
         QB_Wrapper wrapper = (QB_Wrapper)System.JSON.deserialize(body, QB_Wrapper.class);
 
-        return new Auth.OAuthRefreshResult(wrapper.access_token, wrapper.token_type);
+        return new Auth.OAuthRefreshResult(wrapper.access_token, wrapper.refresh_token);
     }
 
     global Auth.UserData getUserInfo(Map<string,string> authProviderConfiguration, Auth.AuthProviderTokenResponse response){
