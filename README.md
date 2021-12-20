@@ -1,5 +1,5 @@
 Remember before deploying in your org:
-1. This is a custom Auth provider to connect Quickboos with salesforce.
+1. This is a custom Auth provider to connect Quickbooks with salesforce.
 2. After deploying the custom metadata types (QB_Metadata__mdt) and the two apex classes (QuickBook, QB_UserWrapper)
 3. QuickBook will be available in 'Auth Provider' option.
 4. Now fill in the required fields leaving 'State' and 'Security' token.
@@ -27,7 +27,7 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
 
 Remember before deploying in your org:
-1. This is a custom Auth provider to connect Quickboos with salesforce.
+1. This is a custom Auth provider to connect Quickbooks with salesforce.
 2. After deploying the custom metadata types (QB_Metadata__mdt) and the two apex classes (QuickBook, QB_UserWrapper)
 3. QuickBook will be available in 'Auth Provider' option.
 4. Now fill in the required fields leaving 'State' and 'Security' token.
